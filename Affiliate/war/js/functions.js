@@ -65,13 +65,7 @@ $(function() {
     var width =  24 * $('.jcarousel-control a').length;    
     $('.jcarousel-control').width(width+24);
     var left_pos = ((994 - width)/2 ) + 1;
-    $('.jcarousel-control').css('left' , left_pos );  
-    
-    $('#sort-nav ul li').hover( function(){
-        $(this).find('.dd').show();
-    }, function() {
-        $(this).find('.dd').hide();
-    });
+    $('.jcarousel-control').css('left' , left_pos );                
 });
 
  function mycarousel_initCallback(carousel) {
