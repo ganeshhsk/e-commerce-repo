@@ -18,15 +18,15 @@
 	
 }
 
-.jspVerticalBar
-{
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 16px;
-	height: 100%;
-	background: red;
-}
+/* .jspVerticalBar */
+/* { */
+/* 	position: absolute; */
+/* 	top: 0; */
+/* 	right: 0; */
+/* 	width: 16px; */
+/* 	height: 100%; */
+/* 	background: red; */
+/* } */
 
 .jspHorizontalBar
 {
@@ -95,10 +95,10 @@
 	
 }
 
-.jspVerticalBar .jspArrow
-{
-	height: 16px;
-}
+/* .jspVerticalBar .jspArrow */
+/* { */
+/* 	height: 16px; */
+/* } */
 
 .jspHorizontalBar .jspArrow
 {
@@ -112,15 +112,15 @@
 	outline: none;
 }
 
-.jspCorner
-{
-	background: #eeeef4;
-	float: left;
-	height: 100%;
-}
+/* .jspCorner */
+/* { */
+/* 	background: #eeeef4; */
+/* 	float: left; */
+/* 	height: 100%; */
+/* } */
 
 /* Yuk! CSS Hack for IE6 3 pixel bug :( */
-* html .jspCorner
-{
-	margin: 0 -3px 0 0;
-}
+/* * html .jspCorner */
+/* { */
+/* 	margin: 0 -3px 0 0; */
+/* } */
